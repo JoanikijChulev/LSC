@@ -9,7 +9,8 @@ The implementation clusters rows of a data matrix by treating each row as an **o
 
 - `lsc.py` — the main LSC implementation containing the `LSC(...)` function
 - `test_lsc_benchmark.py` — standalone benchmark script for evaluating LSC against baseline clustering methods
-- `basic_run.py` — just a basic run of the algorithm
+- `basic_run.py` — just a basic run of the algorithm.
+
 If your main algorithm file is not named `lsc.py`, either rename it or pass its module name explicitly when running the benchmark.
 
 ## What this implementation does
@@ -23,7 +24,7 @@ Compared with the earlier algorithm, this version makes the clustering procedure
 - it computes **Manhattan (L1)** distances between rows
 - it normalizes both distance matrices before combining them
 - it uses a weighted combined distance
-- it performs **k-medoids-style clustering** rather than median-center updates
+- it performs **k-medoids-style clustering**
 - it uses medoid-based seeding for initialization
 - it repairs empty clusters with medoid repair instead of random replacement
 
