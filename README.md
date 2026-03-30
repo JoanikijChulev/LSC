@@ -48,7 +48,7 @@ The benchmark script includes extra tests on non-sequential tabular data specifi
 Install the following Python packages:
 
 ```bash
-pip install numpy scipy scikit-learn matplotlib
+pip install numpy scipy scikit-learn matplotlib tqdm fastdtw
 ```
 
 ### Tested imports used by the code
@@ -57,6 +57,8 @@ pip install numpy scipy scikit-learn matplotlib
 - `scipy`
 - `scikit-learn`
 - `matplotlib`
+- `tqdm`
+- `fastdtw`
 - standard library modules such as `argparse`, `csv`, `json`, `time`, and `pathlib`
 
 ## Python version
@@ -84,7 +86,8 @@ cluster_labels, cluster_centers = LSC(
     smoothing=True,
     max_iterations=100,
     random_state=42,
-    visualize=False
+    visualize=False,
+    show_progress=True
 )
 ```
 
@@ -124,6 +127,10 @@ Random seed for reproducibility.
 If `True`, the function plots:
 - the initial line space
 - the clustered line space with medoid representatives
+
+### `show_progress`
+If `True`, the function gives:
+- estimate (shown in loading bar) for the run time of the algorithm
 
 ## Outputs
 
