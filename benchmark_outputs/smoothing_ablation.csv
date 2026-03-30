@@ -1,0 +1,3 @@
+dataset,method,ARI,runtime_sec
+synthetic_noise_10,with_smoothing,0.12381661506787146,290.0148058999912
+synthetic_noise_10,without_smoothing,0.11456219986650427,288.553245099989

@@ -1,0 +1,10 @@
+dataset,method,ARI,AMI,Homogeneity,Completeness,V-measure,Silhouette,runtime_sec
+"n=10,d=3",LSC,nan,nan,nan,nan,nan,nan,0.0074331
+"n=10,d=10",LSC,nan,nan,nan,nan,nan,nan,0.0210511
+"n=10,d=20",LSC,nan,nan,nan,nan,nan,nan,0.045695
+"n=50,d=3",LSC,nan,nan,nan,nan,nan,nan,0.0604644
+"n=50,d=10",LSC,nan,nan,nan,nan,nan,nan,0.238833
+"n=50,d=20",LSC,nan,nan,nan,nan,nan,nan,0.574586
+"n=100,d=3",LSC,nan,nan,nan,nan,nan,nan,0.171374
+"n=100,d=10",LSC,nan,nan,nan,nan,nan,nan,0.9119591
+"n=100,d=20",LSC,nan,nan,nan,nan,nan,nan,2.2675611
